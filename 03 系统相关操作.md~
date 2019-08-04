@@ -19,8 +19,8 @@ passwd							# 修改当前用户密码
 rpm -qa|grep -i mysql			# 查看当前安装mysql情况
 rpm -ev <包名>					# 卸载软件
 
-find /<path> -name <key> -type d    # 查找文件夹
-find /<path> -name <key> -print     # 查找文件
+find /<路径> -name <关键字> -type d
+find /<路径> -name <关键字> -print
 
 
 ### 解压命令

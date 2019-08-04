@@ -40,27 +40,9 @@ fcitx-configtool
 弹出图形界面 添加 pinyin 输入法
 
 
-## 配置 Git
-安装 git ssh
-sudo apt-get install git ssh
-
-设置用户名和密码
-git config --global user.name "UserName"    # 设置用户名
-git config --global user.email email@server # 设置邮箱
-git config --global  --list                 # 查看当前用户配置
-
-生成 SSH KEY
-ssh-keygen -t rsa -C "yefcion@163.com" 
-生成 ssh key 过程中，会让你填写 passphrase，连按三次回车跳过即可
-打开 id_rsa.pub 文件，将内容复制到剪贴板(SSH KEY 公钥，用于 GitHub 身份验证)
-登录 GitHub，打开 Personal settings 页面，选择 SSH and GPG keys 选项，按图设置
-将复制的 key 粘贴进去
-[设置](https://images2015.cnblogs.com/blog/875028/201703/875028-20170310215743420-2053367294.png)
-
-
-
 ## 配置 Java 开发环境
 下载 JDK 文件，[下载地址](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+
 
 
 编辑配置文件
