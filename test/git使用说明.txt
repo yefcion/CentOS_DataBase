@@ -1,0 +1,6 @@
+# 分支相关的 git 使用
+## 新建并转到该分支
+git branch -b win			# 新建并转到 win 分支
+
+git branch win				# 创建 win 分支
+git checkout win			# 转到 win 分支
