@@ -19,7 +19,7 @@ git merge win               # 把 win 分支合到当前分支
 git branch -d win           # 删除分支 win
 
 
-
+https://www.cnblogs.com/hcxy/p/7414705.html
 git pull与本地修改冲突
 1、先将本地修改存储起来，注意一定要先 add
 
