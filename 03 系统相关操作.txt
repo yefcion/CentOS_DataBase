@@ -117,3 +117,11 @@ Shift + F6						# 全局修改方法名
 
 ### VS Code
 Shift + Alt + F					# 代码对齐
+
+
+
+### SSH
+service sshd status             # 查看 ssh 状态
+
+ssh root@144.34.237.53 -p 26998 # 我的 linux 服务器
+
