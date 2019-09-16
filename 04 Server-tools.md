@@ -1,8 +1,11 @@
 # Docker
 
+```shell
 docker restart <vas>
-
 docker exec -it <vas> bash
+```
+
+
 
 
 
