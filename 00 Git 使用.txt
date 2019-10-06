@@ -1,5 +1,9 @@
 origion config
 
+## add ssh
+ssh-keygen -t rsa -C "yefcion@163.com"
+
+
 先 pull 了一个项目之后
 添加了一个文件 add 后 pull 没反应
             commit 后依然没反应
