@@ -7,16 +7,25 @@
 sudo  pacman-mirrors -i -c China -m rank
 # then tick USTC
 
+# 更新
+pacman -Syu 
+# 更新源数据库
+pacman -Syy
 
 # update software
 sudo pacman -Syyu
+
+# install vscode
+yaourt -S visual-studio-code-bin
+# install nutstore
+sudo pacman -S nutstore
+
+
+
 ```
 
 ```shell
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-
-
 
 # shell changes
 https://www.jianshu.com/p/bcb6df649514
@@ -31,11 +40,6 @@ sudo teamviewer daemon stop
 sudo teamviewer daemon start
 
 https://blog.csdn.net/seek_of/article/details/82810476
-
-# install nutstore
-sudo pacman -S nutstore
-
-yay -S deepin-wine-wechat
 
 
 1、配置国内源
@@ -58,9 +62,6 @@ $ sudo pacman -Syy && sudo pacman -S archlinuxcn-keyring
 
 6、安装yaourt
 $ sudo pacman -S yaourt
-
-
-
 ```
 
 
@@ -68,12 +69,8 @@ $ sudo pacman -S yaourt
 
 
 ```shell
-pacman -Sc 清空并且下载新数据
-pacman-mirrors -gb testing -c China //更新源
-or
-pacman-mirrors -c China -g //更新源
-pacman -Syu 更新
-pacman -Syy 更新源数据库
-pacman -Syyu 安装更新
+# update pip source with tsu
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pip -U
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
