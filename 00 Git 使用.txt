@@ -3,6 +3,10 @@ origion config
 Git push远程仓库总是需要账号密码
 https://blog.csdn.net/sysu_cm/article/details/60348366
 
+use ssh way
+coupy the ssh link
+
+
 ## add ssh
 ssh-keygen -t rsa -C "yefcion@163.com"
 
