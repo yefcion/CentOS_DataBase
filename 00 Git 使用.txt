@@ -33,6 +33,40 @@ git merge win               # 把 win 分支合到当前分支
 
 git branch -d win           # 删除分支 win
 
+
+我的 Git 使用说明
+### Git 相关
+git config --list				# 列出所有 Git 当时能找到的配置  
+git config --global user.name 许传浩10261177  
+git config --global user.email xu.chuanhao@zte.com.cn  
+git config <key>				# 来检查 Git 的某一项配置  
+ssh-keygen -t rsa -C "xu.chuanhao@zte.com.cn" 		# 生成 ssh-key 填到 gerrit 上的对应位置
+
+git status						# 检查当前文件状态  
+git diff						# 查看尚未暂存的文件更新了哪些部分  
+git add <filename>				# 添加 <> 文件  
+git add .
+git commit -m '说明'			# commit 并填写修改说明  
+git commit -a -m ""				# 无需 add 直接提交  
+git commit -amend				# 覆盖上一次提交  
+
+git log 						# 会按提交时间列出所有的更新  
+git log --stat					# 简洁显示  
+git log --pretty=format:"%an"	# 查看日志中，提交作者名称  
+
+git reset --hard <commit-ID>	# 回到指定版本
+
+git branch						# 查看当前分支
+git branch -a					# 查看所有分支
+git checkout <分支名>			# 切换分支（origin 后面部分）
+
+
+
+
+
+
+
+
 https://www.cnblogs.com/hcxy/p/7414705.html
 git pull与本地修改冲突
 
