@@ -1,5 +1,9 @@
-
-
+# 安装软件
+sudo apt-get install <name>
+# 卸载软件
+sudo apt-get --pruge remove <name>
+# 软件列表
+dpkg --list  
 
 
 Software List
@@ -23,3 +27,12 @@ Electron-ssr 代理软件
 
 Deepin系统安装软件的方法总结 2019-7-22 19:47 
 https://bbs.deepin.org/forum.php?mod=viewthread&tid=181002
+
+
+
+
+# 修改默认编辑器为 vim
+1、修改配置
+echo export EDITOR=/usr/bin/vim >> ~/.bashrc 
+2、删除 nano 编辑器
+sudo apt-get remove nano 
