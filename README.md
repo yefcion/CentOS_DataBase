@@ -6,8 +6,6 @@ I install the ElementOS
 
 Usual tools include git, IDEA, Chrome, VS Code
 
-
-
 Change to Deepin again
 
-The commod line is different.
+The commod line is different
