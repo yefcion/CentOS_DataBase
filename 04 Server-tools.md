@@ -2,6 +2,7 @@
 connect remote server
 
 ssh username@ipAdress
+
 ssh root@10.46.169.126
 ```
 
