@@ -1,12 +1,21 @@
+# 软件相关
+```shell
 # 安装软件
 sudo apt-get install <name>
+
 # 卸载软件
 sudo apt-get --pruge remove <name>
+
+# 更新软件
+sudo apt-get update
+sudo apt-get upgrade
+
 # 软件列表
-dpkg --list  
-
-
+dpkg --list
 Software List
+```
+
+
 
 
 # 系统相关软件升级
