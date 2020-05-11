@@ -41,13 +41,18 @@ https://bbs.deepin.org/forum.php?mod=viewthread&tid=181002
 
 
 # 修改默认编辑器为 vim
-1、修改配置
+```shell
+# 1、修改配置
 echo export EDITOR=/usr/bin/vim >> ~/.bashrc 
-2、删除 nano 编辑器
+# 2、删除 nano 编辑器
 sudo apt-get remove nano 
+```
 
 
 
 
 # 安装 pip3 
+```shell
 sudo apt install  python3-pip
+```
+
