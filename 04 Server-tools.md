@@ -25,3 +25,8 @@ redis-cli   # 启动 redis
 keys *
 
 hvals <key>
+
+
+webdav
+crontab
+终端 zx
