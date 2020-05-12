@@ -1,11 +1,30 @@
 # 05 shell use
 
-参考博客 Linux crontab命令详解 https://www.cnblogs.com/ftl1012/p/crontab.html
+参考博客：[Linux crontab命令详解](https://www.cnblogs.com/ftl1012/p/crontab.html)
+
+## 我的使用
+
+```shel
+# 查看现有任务并编辑
+crontab -e
+# 此时是 vim 界面，直接 i 编辑即可
+
+# 每隔 1 分钟打印一次时间到指定文件
+*/1 * * * * echo `date` >> /home/yefcion/Documents/time.txt
+
+# 每小时执行指定脚本
+0 * * * * /bin/sh /home/yefcion/release.sh 
+
+# 当天 23 点，第二天 0 点到 7 点，每隔 1 分钟执行一次脚本
+* 23,00-07/1 * * * /bin/sh /home/script.sh
+```
+
+
+
+## 详细讲解
 
 ```shell
-
 f1 f2 f3 f4 f5 program
-
 ```
 
  - 其中 f1 是表示分钟，f2 表示小时，f3 表示一个月份中的第几日，f4 表示月份，f5 表示一个星期中的第几天。program 表示要执行的程序。
