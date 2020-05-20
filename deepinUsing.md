@@ -56,3 +56,10 @@ sudo apt-get remove nano
 sudo apt install  python3-pip
 ```
 
+软件列表：
+ - 火狐/Chrome
+ - VSCode
+ - Sublime
+ - 坚果云
+ - Typora
+ - electron-ssr
