@@ -26,8 +26,14 @@ Software List
 # 安装包安装
 NutStore 坚果云
 地址：https://www.jianguoyun.com/s/downloads/linux
-安装方式：双击安装
-https://www.jianguoyun.com/s/downloads/linux
+下载 Ubuntu 版本
+安装方式：
+https://www.cnblogs.com/gaodp/p/12840020.html
+
+
+Sublime Text3
+官方安装教程：
+http://www.sublimetext.com/docs/3/linux_repositories.html
 
 Electron-ssr 代理软件
 地址：https://www.jianguoyun.com/p/Datu08sQn7KEBxjv6aAC
