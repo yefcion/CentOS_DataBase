@@ -13,3 +13,5 @@ The commod line is different
 
 
 2020.05.19 统信 UOS 发布
+
+2020.05.21 install deppin v20 beta
