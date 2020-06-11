@@ -75,3 +75,4 @@ sudo apt install  python3-pip
  - 坚果云
  - Typora
  - electron-ssr
+ - 自带输入法很好，不需要换
