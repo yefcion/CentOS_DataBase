@@ -79,7 +79,7 @@ ssh-keygen -t rsa -C "yefcion@163.com" 		# 生成 SSH KEY
 
 登录 GitHub，打开 Personal settings 页面，选择 SSH and GPG keys 选项，按图设置将复制的 key 粘贴进去。
 
-![设置](https://raw.githubusercontent.com/yefcion/PicData/master/img/20190906230017.png)
+![设置](https://cdn.jsdelivr.net/gh/yefcion/PicData@master/img/20190906230017.png)
 
 
 
