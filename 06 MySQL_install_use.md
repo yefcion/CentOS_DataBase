@@ -51,3 +51,13 @@ sudo apt-mark hold libc6
 
 
 
+## docker 安装 mysql
+mysql 连不上原因 16001
+
+1.CentOS 3306 端口没开
+
+2.MySQL 用户授权
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION; 
+
+3.VirtualBox 端口转发
