@@ -61,3 +61,6 @@ mysql 连不上原因 16001
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION; 
 
 3.VirtualBox 端口转发
+
+
+4.开通 2375 端口
