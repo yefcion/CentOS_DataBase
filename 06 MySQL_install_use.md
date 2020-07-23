@@ -1,5 +1,7 @@
 # Win10 上用 VirtualBox 安装 CentOS 使用 Docker 安装 mysql/redis 全过程记录
 
+
+
 ## 在 VirtualBox 上安装 CentOS7 系统
 
 安装虚拟机 VirtualBox(VB)，安装过程简单不值得说
