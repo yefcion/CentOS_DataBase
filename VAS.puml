@@ -1,0 +1,24 @@
+@startuml
+box "页面" #LightBlue
+participant "Portal" as portal
+end box
+
+box "VAS" #Lightgreen
+participant "VAS服务入口" as gateway
+participant "监所微服务" as dorm
+end box
+
+box "数据库" #LightBlue
+participant "pg" as pg
+end box
+
+==页面查询==
+portal ->gateway:查询告警
+gateway->dorm
+dorm->pg:查询入库\n的告警信息
+
+==websocket推送==
+portal ->dorm:建立websockt
+dorm->dorm:定时任务
+dorm->portal:推送告警统计数消息
+@enduml
